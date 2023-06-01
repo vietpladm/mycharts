@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  my-demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-01T22:24:43.057327935+08:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.11.3
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.10.1
+    description: A Helm chart for Kubernetes
+    digest: 7d2e009030a0dd5167a873ea7430a6d163f9028de3b6c2aeee223820b62ad2af
+    name: my-demo
+    type: application
+    urls:
+    - my-demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-06-01T22:24:43.035330434+08:00"
